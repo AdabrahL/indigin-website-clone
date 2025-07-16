@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'aos/dist/aos.css';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Home from './components/Home';
+import About from './components/About';
+import Founder from './components/Founder';
+import Story from './components/Story';
+import ValuesSection from './components/Values';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+        <Home/>
+  <About/>
+<Founder/>
+<Story/>
+<ValuesSection/>
+<Footer/>
+
+  
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

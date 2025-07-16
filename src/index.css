@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hero-banner {
+  position: relative;
+}
+
+.banner-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 20%;
+}
+
+.btn-anim {
+  transition: transform 0.3s ease;
+}
+
+.btn-anim:hover {
+  transform: scale(1.05);
+}
+
+.overlay-me {
+  position: relative;
+}
+
+/* Optional arrows or animation effects if needed */
