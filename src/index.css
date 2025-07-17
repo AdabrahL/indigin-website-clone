@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p {color:' red';}
 
 .hero-banner {
   position: relative;
@@ -37,4 +38,39 @@ code {
   position: relative;
 }
 
+.header {
+  transition: all 0.3s ease;
+  z-index: 999;
+  padding: 10px 0;
+  height: 80px;
+}
+
+.header.at-top {
+  background-color: transparent;
+}
+
+.header.at-top .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.header.at-top .nav-link.active {
+  color: #00aa55; /* Green */
+}
+
+.header.scrolled {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header.scrolled .nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.header.scrolled .nav-link.active {
+  color: #00aa55; /* Green */
+}
+
+.ashtext {color:'#737878'}
 /* Optional arrows or animation effects if needed */

@@ -9,12 +9,14 @@ import Founder from './components/Founder';
 import Story from './components/Story';
 import ValuesSection from './components/Values';
 import Footer from './components/Footer';
+import Subsidiaries from './components/Subsidiary ';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
         <Home/>
   <About/>
+  <Subsidiaries/>
 <Founder/>
 <Story/>
 <ValuesSection/>
